@@ -1,0 +1,10 @@
+{
+  "name": "security-audit",
+  "description": "Red Team security audit with 6 parallel Claude Sonnet 4.5 agents",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kirill",
+    "email": "whirpy@yandex.ru"
+  },
+  "keywords": ["security", "audit", "pentest", "owasp", "red-team", "vulnerability"]
+}

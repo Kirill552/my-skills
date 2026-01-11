@@ -1,0 +1,22 @@
+{
+  "name": "kirill-skills",
+  "owner": {
+    "name": "Kirill",
+    "email": "whirpy@yandex.ru"
+  },
+  "metadata": {
+    "description": "Security and development skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "security-audit",
+      "source": {
+        "source": "local",
+        "path": "plugins/security-audit"
+      },
+      "description": "Red Team security audit with 6 parallel Sonnet 4.5 agents. Checks OWASP 2025, supply chain, LLM security, secrets, infrastructure.",
+      "version": "1.0.0"
+    }
+  ]
+}
