@@ -12,7 +12,8 @@
     {
       "name": "security-audit",
       "source": {
-        "source": "local",
+        "source": "url",
+        "url": "https://github.com/Kirill552/my-skills.git",
         "path": "plugins/security-audit"
       },
       "description": "Red Team security audit with 6 parallel Sonnet 4.5 agents. Checks OWASP 2025, supply chain, LLM security, secrets, infrastructure.",
